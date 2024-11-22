@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JRadioButton" name="jRadioButton3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jRadioButton3"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="jRadioButton4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jRadioButton4"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="jRadioButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jRadioButton1"/>
+      </Properties>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="cbCalculs" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                      <Component id="btnMostraVies" max="32767" attributes="0"/>
+                      <Component id="btnMostrarAccesos" max="32767" attributes="0"/>
+                      <Component id="btnMostraIncidencies" alignment="1" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="cbOpcionVies" max="32767" attributes="0"/>
+                          <Component id="cbOpcionAccesos" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                      <Component id="txtCalcul" min="-2" pref="83" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="27" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btnMostraVies" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cbOpcionVies" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="cbOpcionAccesos" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnMostrarAccesos" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="cbCalculs" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtCalcul" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="btnMostraIncidencies" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="22" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="btnMostraVies">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Mostrar Vies"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnMostraViesActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnMostrarAccesos">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Mostrar accesos"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnMostrarAccesosActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbOpcionVies">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="3">
+            <StringItem index="0" value="Totes"/>
+            <StringItem index="1" value="Obertes"/>
+            <StringItem index="2" value="Tancades"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbOpcionAccesos">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="2">
+            <StringItem index="0" value="Oberts"/>
+            <StringItem index="1" value="Tancats"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnMostraIncidencies">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Mostrar Incid&#xe8;ncies"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnMostraIncidenciesActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCalcul">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbCalculs">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="2">
+            <StringItem index="0" value="Nombre Accesos"/>
+            <StringItem index="1" value="Calcular Longitud"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cbCalculsActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+  </SubComponents>
+</Form>
